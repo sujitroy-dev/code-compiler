@@ -10,13 +10,15 @@ app.use(bodyParser.json());
 app.get("/", (req, res) => {
   res.json({ message: "Server is running" });
 });
+
 app.post("/python", async (req, res) => {
   const code = req.body.code;
-  const envData = { OS: "linux" };
+  const envData = { OS: "windows" };
 
   try {
     compiler.compilePython(envData, code, (data) => {
-      res.json({
+      console.error(data);
+      return res.json({
         message: "Successfully compiled",
         data,
       });

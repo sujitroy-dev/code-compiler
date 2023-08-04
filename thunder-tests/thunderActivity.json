@@ -4,11 +4,11 @@
         "colId": "history",
         "containerId": "",
         "name": "http://localhost:4000/python",
-        "url": "http://localhost:4000/python",
+        "url": "http://localhost:4000/",
         "method": "GET",
         "sortNum": 0,
         "created": "2023-08-04T05:57:36.358Z",
-        "modified": "2023-08-04T05:57:36.358Z",
+        "modified": "2023-08-04T07:43:53.805Z",
         "headers": [],
         "params": [],
         "tests": []
@@ -22,12 +22,12 @@
         "method": "POST",
         "sortNum": 0,
         "created": "2023-08-04T05:57:41.832Z",
-        "modified": "2023-08-04T06:03:23.947Z",
+        "modified": "2023-08-04T07:42:48.177Z",
         "headers": [],
         "params": [],
         "body": {
             "type": "json",
-            "raw": "{\n  \"code\": \"print('Hello Sujit Roy!')\"\n}",
+            "raw": "{\n  \"code\": \"print 'Hello Sujit Roy!'\"\n}",
             "form": []
         },
         "tests": []
